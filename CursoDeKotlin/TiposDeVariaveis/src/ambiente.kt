@@ -1,18 +1,14 @@
-    //n.inc() // para funcionar tem que ser n = n.inc()
+import kotlin.math.r
 fun main(args: Array<String>) {
-    var a = 3
-    var b = 4
-    var c = 5
+    var v1 = 5
+    var v2 = 8
+    var v3 = 3
+    var v4 = 2
 
-    var res = a++ + --b + ++c
+    var res = v1 < v2 && !(v3 - 1 != v1 / v4)
 
-    println("O valores são $a, $b e $c")
-    println("O resultado é $res")
+    println("O resultado da expressão é [$res]")
 }
 /*
-    a = 4
-    b = 3
-    c = 6
-
-    res = 12
+    false
  */
