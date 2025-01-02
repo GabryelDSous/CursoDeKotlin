@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     anoNasc = readLine()!!.toInt()
     print("${RESET}Salário: R$${VERDE}")
     salario = readLine()!!.toFloat()
-    val formatador = DecimalFormat("#.##0,00")
+    val formatador = DecimalFormat("#,##0.00")
     val numeroFormatado = formatador.format(salario)
 
 
